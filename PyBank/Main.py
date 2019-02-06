@@ -47,12 +47,12 @@ print(f'  Greatest Increase in Profits: {greatestDecreaseInProfitsDate} ({greate
 
 # Write results to new txt file
 
-file = open('Resources/PyBankAnalysis.txt','w') 
+file = open('PyBankAnalysis.txt','w') 
 file.write("  Financial Analysis \r\n")
 file.write("  ----------------------------\r\n")
 file.write("  Total Months: %d\r\n"% nMonths )
 file.write("  Total: $%d\r\n"% netProfitOrLoss)
-file.write("  Average  Change: $%d\r\n" % averageProfitOrLoss)
+file.write("  Average  Change: $%d\r\n" % averageChange)
 file.write(f'  Greatest Increase in Profits: {greatestIncreaseInProfitsDate} ({greatestIncreaseInProfitAmount})\r\n')
 file.write(f'  Greatest Increase in Profits: {greatestDecreaseInProfitsDate} ({greatestDecreaseInProfitAmount})\r\n')
 
